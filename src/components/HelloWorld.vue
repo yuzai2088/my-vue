@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <slot :user='user' name='about'>slot--暂无数据！</slot>
     <slot name='h1'>slot--暂无数据！</slot>
-    <slot></slot>
+    <slot :user='user'></slot>
   </div>
 </template>
 

@@ -2,13 +2,14 @@
   <div class="home">
     <h1>Home</h1>
     <HelloWorld msg="Welcome to Your Vue.js App">
-      <template v-slot:about>
+      <template v-slot:about='username'>
         <About></About>
+        {{username.user}}
       </template>
-      <template v-slot:h1>
+      <template slot='h1'>
         <h1>h1插槽</h1>
       </template>
-      <h2>h2 未被包裹的元素h2</h2>
+      <template v-slot='users'>h2 未被包裹的元素h2 {{users.user}}</template>
     </HelloWorld>
   </div>
 </template>
