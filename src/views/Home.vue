@@ -47,9 +47,6 @@ export default {
 </script>
 
 <style>
-  .home{
-    
-  }
   .moved-enter-active, .moved-leave-active {
     transition:all 1s ease;
     opacity: 1;
