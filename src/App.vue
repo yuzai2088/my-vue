@@ -8,6 +8,16 @@
   </div>
 </template>
 
+<script>
+  export default {
+    data(){
+      return {
+        rooter:'根实例参数'
+      }
+    }
+  }
+</script>
+
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
